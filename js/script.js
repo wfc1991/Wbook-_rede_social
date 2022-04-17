@@ -120,7 +120,7 @@ function createProfileRow(){
 const postInput = document.querySelector("#post_input");
 postInput.addEventListener("keydown", function(evento){
 
-    if (evento.code === "Enter" || evento.code === "NumpadEnter") {
+    if (evento.code === 'Enter' || evento.code === 'NumpadEnter') {
         const texto = evento.target.value;
 
         createPostContainer(texto);
