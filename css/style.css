@@ -16,7 +16,7 @@ body {
 
 nav {
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: space-between;
     padding: 3px 1%;
     height: 49px;
@@ -25,10 +25,10 @@ nav {
 }
 
 .logo {
-    width: 75px;
-    height: 60px;
-    margin-right: 40px;
-    border-radius: 10px;
+    width: 65px;
+    height: 65px;
+    margin: 5px;
+    border-radius: 15px;
 
 }
 
@@ -37,11 +37,10 @@ nav {
     align-items: center;
     justify-content: center;
 
-
 }
 
 .nav_left ul {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
 
@@ -56,8 +55,7 @@ nav {
 .nav_left ul li img {
     width: 28px;
     height: 28px;
-    margin: 0 20px;
-    display: inline;
+    margin: 15px;
 
 }
 
@@ -66,24 +64,24 @@ nav {
     align-items: center;
     justify-content: center;
 
-
 }
 
 .nav_right ul li {
-    display: inline-block;
+    display: inline-flex;
 
 }
 
 .nav_right ul li img {
     width: 28px;
     height: 28px;
-    margin: 0 20px;
+    margin: 15px;
+    display: inline-flex;
 }
 
 .nav_user_icon {
     display:flex;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 20px;
 
 }
 
@@ -95,7 +93,7 @@ nav {
 .nav_user_icon ul li img {
     width: 28px;
     height: 28px;
-    margin: 0 15px;
+    margin: 15px;
 }
 
 .nav_user_icon img {
@@ -108,19 +106,19 @@ nav {
 
 .search_box {
     background-color: #efefef;
-    width: 150px;
-    border-radius: 20px;
+    width: 170px;
+    border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 17px;
+    padding: 0 20px;
     justify-content: center;
 
 }
 
 .search_box img {
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
 
 }
 
