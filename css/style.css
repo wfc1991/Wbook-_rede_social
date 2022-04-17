@@ -102,6 +102,7 @@ nav {
     display: flex;
     align-items: center;
     padding: 0 17px;
+    justify-content: center;
 
 }
 
@@ -145,6 +146,7 @@ nav {
     font-weight: 500;
     color: #626262;
     text-transform: capitalize;
+
 }
 
 .post_container {
@@ -160,18 +162,19 @@ nav {
     padding-left: 60px;
     padding-top: 50px;
 
+
+
 }
 
 .post_input_container textarea {
-    width: 100%;
-    height: 90px;
+    width: 90%;
+    height: 70px;
     border: 10px;
     outline: none;
     resize: none;
     background-color: transparent;
     box-shadow: 0px 2px 2px #e5e5e5;
     border-radius: 5px;
-
 }
 
 .add_post_icons {
